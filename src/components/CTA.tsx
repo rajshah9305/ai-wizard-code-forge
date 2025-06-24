@@ -33,7 +33,10 @@ const CTA = () => {
               Start Building Free
               <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 text-lg px-8 py-4">
+            <Button 
+              variant="outline" 
+              className="border-white/30 bg-transparent text-white hover:bg-white hover:text-black text-lg px-8 py-4 transition-all duration-200"
+            >
               View Documentation
             </Button>
           </div>
